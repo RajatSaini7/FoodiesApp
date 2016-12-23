@@ -13,10 +13,10 @@ constructor(){
 register(){
  console.log("check register");
 var data={
- "firstName":this.refs.first.value,
- "lastname":this.refs.last.value,
- "username":this.refs.user.value,
- "password":this.refs.pass.value,
+ "firstName":this.refs.firstName.value,
+ "lastName":this.refs.lastName.value,
+ "username":this.refs.username.value,
+ "password":this.refs.password.value,
          }
          alert(data);
  console.log("Register clicked");
